@@ -1,0 +1,8 @@
+package onetomanyrelationship;
+
+@Entity
+public class Phone {
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private Long phoneId;
+    private String phoneNumber, type;

@@ -1,0 +1,17 @@
+package mouritech.trainingchandra;
+
+import java.util.Scanner;
+
+public class Trend {
+
+	public static void main(String[] args) {
+	 int a,b;
+	 System.out.println("enter 2 integer numbers.....");
+	 Scanner scan=new scanner(System.in);
+	 a=scan.nextInt();
+	 b=scan.nextInt();
+	 System.out.println("addition of the given 2 numbers......."+(a+b));
+     
+	}
+
+}

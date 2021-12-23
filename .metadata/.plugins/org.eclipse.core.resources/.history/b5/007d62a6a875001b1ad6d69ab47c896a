@@ -1,0 +1,10 @@
+package mouritech.trainingchandra;
+
+public class Trend {
+
+	public static void main(String[] args) {
+		System.out.println( "print.com" );
+     
+	}
+
+}

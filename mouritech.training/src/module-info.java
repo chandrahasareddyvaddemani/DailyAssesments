@@ -1,0 +1,2 @@
+module mouritech.training {
+}

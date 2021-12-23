@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+
+
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <title> Page Title</title>
+    </head>
+    <body bgcolor=blue text=white>
+        <h1>This is my Heading</h1>
+        <div>TODO write content</div>
+        <form action="NewServlet" method="post">
+            <input type="text" name="fname"><!-- comment -->
+            <input type="text" name="lname"><!-- comment -->
+            <input type="submit" value="submit">
+        </form>
+        <form action="NewServlet" method="get">
+            <input type="text" name="specialization"><!-- comment -->
+            <input type="text" name="topic"><!-- comment -->
+            <input type="submit" value="submit">
+        </form>
+    </body>
+</html>

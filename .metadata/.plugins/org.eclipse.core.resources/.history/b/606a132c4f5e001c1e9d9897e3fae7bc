@@ -1,0 +1,16 @@
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity
+//@Audited
+public class Laptop {
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private Integer laptopID;
+    public void setModelNo(String string) {
+		// TODO Auto-generated method stub
+		
+	}
+}
