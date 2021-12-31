@@ -38,7 +38,7 @@ public class CountriesController {
 	
 	@DeleteMapping("/")
     public String deleteCountries(@RequestBody Countries countries) {
-		countryRepo.save(countries);
+		countryRepo.delete(countries);
         return "Country Deleted Successfully";
     }
 }
